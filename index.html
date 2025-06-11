@@ -1,79 +1,71 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bluetooth Headset Promo</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="app.js" defer></script>
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'YOUR_PIXEL_ID');
-    fbq('track', 'PageView');
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluetooth Headset - Promo Terbatas!</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_PIXEL_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_PIXEL_ID');
+    </script>
 </head>
 <body>
-  <div class="container">
-    <h1 class="headline">Suaranya Kecil & Bikin Kesel Saat Denger Musik?</h1>
-    <p class="sub">Headset Bluetooth 9D Full Bass hadir untuk kamu yang butuh suara jernih, bass menghentak, dan koneksi stabil TANPA LAG!</p>
-
-    <img src="image/gambar3.jpg" class="product-image" alt="Produk 3"/>
-    <img src="image/gambar2.jpg" class="product-image" alt="Produk 2"/>
-    <img src="image/gambar1.jpg" class="product-image" alt="Produk 1"/>
-
-    <section class="fitur">
-      <h2>Fitur & Spesifikasi:</h2>
-      <ul>
-        <li>9D Full Bass Sound</li>
-        <li>Jangkauan 10–25 meter</li>
-        <li>Baterai 3500mAh + Charging Case</li>
-        <li>IPX7 Waterproof – Anti Air & Keringat</li>
-        <li>Bluetooth 5.1 – Koneksi Stabil</li>
-        <li>Durasi baterai 3–4 Jam</li>
-      </ul>
+    <section class="hero">
+        <h1>Sering Kesal Karena Headset Kabel Kusut dan Suara Kresek?</h1>
+        <p>Bluetooth Headset 9D Full Bass Solusi Gaya Hidup Aktif Tanpa Ribet Kabel!</p>
     </section>
 
-    <section class="keunggulan">
-      <h2>Keunggulan Produk:</h2>
-      <ul>
-        <li>Suara jernih dan bass menghentak</li>
-        <li>Cocok untuk olahraga, gaming, dan travelling</li>
-        <li>Stabil dan tahan air</li>
-      </ul>
+    <section class="images">
+        <img src="image/headset1.jpg" alt="Bluetooth Headset 1">
+        <img src="image/headset2.jpg" alt="Bluetooth Headset 2">
+        <img src="image/headset3.jpg" alt="Bluetooth Headset 3">
     </section>
 
-    <section class="harga">
-      <p class="normal">Harga Normal: <s>Rp 348.000</s></p>
-      <p class="diskon">Harga Promo: <strong>Rp 174.000</strong> <span class="gratis-ongkir">+ Gratis Ongkir</span></p>
-      <p class="cta-text">Promo terbatas! Bisa COD & Garansi 100%</p>
+    <section class="features">
+        <h2>Spesifikasi Produk</h2>
+        <ul>
+            <li>🎵 9D Full Bass Sound</li>
+            <li>📶 Jangkauan 10–25 meter</li>
+            <li>🔋 Baterai 3500mAh + Charging Case</li>
+            <li>💦 IPX7 Waterproof</li>
+            <li>🔗 Bluetooth 5.1 – Koneksi Stabil</li>
+            <li>⏱️ Baterai Tahan 3–4 Jam</li>
+        </ul>
     </section>
 
-    <form id="orderForm">
-      <h3>Form Pemesanan</h3>
-      <label>Nama Lengkap:</label>
-      <input type="text" id="nama" required />
-      <label>No Whatsapp:</label>
-      <input type="text" id="wa" required />
-      <label>Alamat Lengkap Pengiriman:</label>
-      <textarea id="alamat" required></textarea>
-      <label>Pembayaran:</label>
-      <select id="pembayaran">
-        <option>Bank Transfer</option>
-        <option>COD</option>
-      </select>
-      <button type="button" id="pesanBtn">PESAN SEKARANG</button>
-    </form>
+    <section class="price">
+        <p class="normal-price">Harga Normal: <s>Rp348.000</s></p>
+        <p class="discount-price">Harga Promo: Rp174.000</p>
+        <p class="free-shipping">🚚 GRATIS ONGKIR</p>
+        <p class="highlight">🔥 Promo Terbatas | 💸 Bisa COD | ✅ Garansi 100%</p>
+    </section>
+
+    <section class="cta">
+        <form id="orderForm">
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama" required>
+            <label>No Whatsapp:</label>
+            <input type="text" name="whatsapp" required>
+            <label>Alamat Lengkap Pengiriman:</label>
+            <textarea name="alamat" required></textarea>
+            <label>Pembayaran:</label>
+            <select name="pembayaran">
+                <option value="Bank Transfer">Bank Transfer</option>
+                <option value="COD">COD</option>
+            </select>
+            <button type="submit" onclick="gtag('event', 'View-Content'); gtag('event', 'Purchase', {value: 174000, currency: 'IDR'});">Pesan Sekarang</button>
+        </form>
+    </section>
 
     <footer>
-      <p>© 2025 Bluetooth Headset</p>
+        <p>&copy; 2025 Bluetooth Headset | All Rights Reserved</p>
     </footer>
-  </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
