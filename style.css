@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #222;
+}
+.hero {
+    background: #111;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.sub {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.product-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.product-images img {
+    width: 30%;
+    border-radius: 12px;
+}
+.features {
+    padding: 20px;
+    background: #fff;
+}
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    margin-bottom: 10px;
+}
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+.note {
+    color: green;
+    font-style: italic;
+}
+.cta {
+    padding: 20px;
+    background: #e9ecef;
+}
+.cta form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cta input, .cta textarea, .cta select {
+    padding: 10px;
+    font-size: 1em;
+}
+.cta button {
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-images-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+.product-images-vertical img {
+    width: 80%;
+    border-radius: 12px;
+}
+
+.advantages {
+    background: #fff8e1;
+    padding: 25px;
+    margin-top: 20px;
+}
+.advantages ul {
+    list-style: none;
+    padding-left: 0;
+}
+.advantages li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.free-shipping {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e60000;
+    background: #fff0f0;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.cta label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.cta input, .cta textarea, .cta select {
+    margin-bottom: 10px;
+}
